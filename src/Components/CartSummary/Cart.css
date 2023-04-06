@@ -1,0 +1,37 @@
+.cart-summary {
+    background-color: rgba(255, 153, 0, 0.3);
+    position: sticky;
+    top: 0;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+
+.cart-title {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 70px;
+
+}
+
+.cart-info {
+    margin-top: 45px;
+    margin-left: 15px;
+    padding-bottom: 50px;
+}
+
+.clear-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #FF3030;
+    border-radius: 4px;
+    color: white;
+}
+
+.clear-cart span,
+.review-proceed-span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+}

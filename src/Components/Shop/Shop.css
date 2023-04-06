@@ -1,0 +1,28 @@
+.shop-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+/* product-container */
+.product-container {
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+
+.review-and-proceed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ff6600;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 15px;
+    color: white;
+}
+.review-and-proceed:hover{
+    background-color: rgb(59, 54, 54);
+}
